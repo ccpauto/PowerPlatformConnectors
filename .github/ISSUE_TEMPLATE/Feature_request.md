@@ -4,13 +4,13 @@ about: Suggest an idea for a connector in this repository!
 
 ---
 
-**What type of connector is this bug about? (custom, certified, or independent publisher)**
+**Type of Connector**
 
 - [ ] certified 
 - [ ] custom 
 - [ ] independent publisher
 
-**What is the name of the connector?**
+**Name of Connector**
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
