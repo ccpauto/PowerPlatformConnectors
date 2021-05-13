@@ -4,6 +4,8 @@ about: Suggest an idea for an existing connector in this repository!
 
 ---
 
+New ideas for existing connectors can include support for new actions, triggers, and support for more endpoints. If you need to submit a request for a new connector, please use the New connector request template.
+
 **Type of Connector**
 
 - [ ] certified 
