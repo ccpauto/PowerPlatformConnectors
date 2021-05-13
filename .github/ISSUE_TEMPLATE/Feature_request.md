@@ -1,6 +1,6 @@
 ---
 name: "\U0001F680Feature request"
-about: Suggest an idea for a connector in this repository!
+about: Suggest an idea for an existing connector in this repository!
 
 ---
 
