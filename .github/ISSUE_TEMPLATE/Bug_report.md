@@ -1,8 +1,19 @@
 ---
 name: "\U0001F41BBug report"
-about: Create a report to help us improve
+about: File a connector bug here!
 
 ---
+
+Remember to include sufficient details and context. If you have multiple bugs, please submit them in separate issues.
+
+
+**Type of Connector**
+
+- [ ] certified 
+- [ ] custom 
+- [ ] independent publisher
+
+**Name of Connector**
 
 **Describe the bug**
 A clear and concise description of what the bug is.
