@@ -87,6 +87,17 @@ Updates to an existing custom connector can be made through a simple pull reques
 
 For new connectors which will be submitted for certification, create a directory under the ```certified-connectors``` directory, place the connector files in the sub-folder, and submit a pull request to the ```dev``` branch. Ensure that a clear, structured, readme.md is included. 
 
+#### Independent Publisher Connectors
+
+1. Create a fork to the ```independent-publisher-connectors directory``` and create your connector in the fork.
+2. Submit a pull request to the ```dev``` branch. Ensure that the following files are included: apiProperities.json, apiDefinition.swagger.json, and readme.md. Fill out the checkbox to acknowledge that you’ve tested this connector.
+3. Validation processes: The swagger verification and breaking change validation process will automatically run and leave comments. Please address any requested changes by updating the connector.
+4. Once you’ve pushed all necessary changes, leave this comment “certify-connector.” This will trigger the certification process to run automatically. The script will confirm that either the process has started or that there is an error. If there’s an error, the certification team will leave a comment.
+5. Microsoft Certification team will release your connector to the testing region and ask you to test your connector. Once you've tested your connector in a preview environment, resolve the comment. Please view our documentation on testing [here](https://docs.microsoft.com/en-us/connectors/custom-connectors/certification-testing). 
+6. Microsoft Certification team will release your connector to production and a script will sync dev and master branches.
+7. Your GitHub handle will be added to the CODEOWNER file to give you access to submitting PRs directly without having to clone in the future and you will be able to accept changes from other publishers.
+
+
 ### Tooling and Validation
 
 #### CLA
