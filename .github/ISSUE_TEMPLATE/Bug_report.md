@@ -23,9 +23,9 @@ A clear and concise description of what the bug is.
 - [ ] no
 
 **What is the severity of this bug?**
-- [ ] Severity 1: Connector is broken or there's a very serious issue
-- [ ] Severity 2: One or more important connector features are down
-- [ ] Severity 3: Minor issue
+- [ ] severity 1: Connector is broken or there's a very serious issue
+- [ ] severity 2: One or more important connector features are down
+- [ ] severity 3: Minor issue
 
 **To Reproduce**
 Steps to reproduce the behavior.
