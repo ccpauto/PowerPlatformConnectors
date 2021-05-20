@@ -207,7 +207,8 @@
             "in": "query",
             "required": false,
             "type": "string",
-            "x-ms-summary": "query"
+            "x-ms-summary": "query",
+            "description": "query"
           }
         ]
       }
