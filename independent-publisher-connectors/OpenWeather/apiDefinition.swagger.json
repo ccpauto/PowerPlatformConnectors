@@ -206,7 +206,8 @@
             "name": "q",
             "in": "query",
             "required": false,
-            "type": "string"
+            "type": "string",
+            "x-ms-summary": "query"
           }
         ]
       }
