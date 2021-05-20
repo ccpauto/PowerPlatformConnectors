@@ -3,6 +3,11 @@
   "info": {
     "title": "OpenWeatherMap",
     "description": "Open Weather Map connector descripion added to fill the space.",
+    "contact": {
+      "name": "OpenWeatherMap",
+      "url": "https://openweathermap.com",
+      "email": "contact@openweathermap.com"
+    },    
     "version": "1.0"
   },
   "host": "api.openweathermap.org",
@@ -218,5 +223,19 @@
     }
   },
   "security": [],
-  "tags": []
+  "tags": [],
+  "x-ms-connector-metadata": [
+    {
+      "propertyName": "Website",
+      "propertyValue": "https://agilepoint.com/"
+    },
+    {
+      "propertyName": "Privacy policy",
+      "propertyValue": "https://agilepoint.com/privacy-statement/"
+    },
+    {
+      "propertyName": "Categories",
+      "propertyValue": "Productivity;Business Management"
+    }
+  ]
 }
